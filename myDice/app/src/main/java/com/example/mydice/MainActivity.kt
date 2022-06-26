@@ -25,8 +25,10 @@ class MainActivity : AppCompatActivity() {
         val dice=Dice(6)
         val rollFirstDice=dice.roll()
         val rollSecondDice=dice.roll()
+        val rollThirdDice=dice.roll()
         val diceImage1: ImageView =findViewById((R.id.imageView))
         val diceImage2: ImageView =findViewById((R.id.imageView2))
+        val diceImage3: ImageView =findViewById((R.id.imageView3))
         Toast.makeText(this, "Dices Rolled!", Toast.LENGTH_SHORT).show()
         when(rollFirstDice) {
             1 -> diceImage1.setImageResource(R.drawable.dice_1)
@@ -44,6 +46,14 @@ class MainActivity : AppCompatActivity() {
             4 -> diceImage2.setImageResource(R.drawable.dice_4)
             5 -> diceImage2.setImageResource(R.drawable.dice_5)
             else -> diceImage2.setImageResource(R.drawable.dice_6)
+        }
+        when(rollThirdDice) {
+            1 -> diceImage3.setImageResource(R.drawable.dice_1)
+            2 -> diceImage3.setImageResource(R.drawable.dice_2)
+            3 -> diceImage3.setImageResource(R.drawable.dice_3)
+            4 -> diceImage3.setImageResource(R.drawable.dice_4)
+            5 -> diceImage3.setImageResource(R.drawable.dice_5)
+            else -> diceImage3.setImageResource(R.drawable.dice_6)
         }
     }
 }
