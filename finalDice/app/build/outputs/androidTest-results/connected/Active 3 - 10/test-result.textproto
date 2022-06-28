@@ -1,0 +1,68 @@
+# 2022-06-22T20:45:54.930Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ExampleUnitTest"
+    test_package: "com.example.finaldice"
+    test_method: "generates_number"
+    start_time {
+      seconds: 1655930753
+      nanos: 390000000
+    }
+    end_time {
+      seconds: 1655930753
+      nanos: 652000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\QUANG DUONG\\unit1\\finalDice\\app\\build\\outputs\\androidTest-results\\connected\\Active 3 - 10\\logcat-com.example.finaldice.ExampleUnitTest-generates_number.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\QUANG DUONG\\unit1\\finalDice\\app\\build\\outputs\\androidTest-results\\connected\\Active 3 - 10\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\QUANG DUONG\\unit1\\finalDice\\app\\build\\outputs\\androidTest-results\\connected\\Active 3 - 10\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\QUANG DUONG\\unit1\\finalDice\\app\\build\\outputs\\androidTest-results\\connected\\Active 3 - 10\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "D:\\QUANG DUONG\\unit1\\finalDice\\app\\build\\outputs\\androidTest-results\\connected\\Active 3 - 10\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

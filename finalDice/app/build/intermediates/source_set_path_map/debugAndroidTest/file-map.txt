@@ -1,0 +1,7 @@
+com.example.finaldice.test.app-androidTest-0 D:\QUANG DUONG\unit1\finalDice\app\build\generated\res\resValues\androidTest\debug
+com.example.finaldice.test.app-androidTest-1 D:\QUANG DUONG\unit1\finalDice\app\build\generated\res\rs\androidTest\debug
+com.example.finaldice.test.app-mergeDebugAndroidTestResources-2 D:\QUANG DUONG\unit1\finalDice\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.finaldice.test.app-mergeDebugAndroidTestResources-3 D:\QUANG DUONG\unit1\finalDice\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.finaldice.test.app-merged_res-4 D:\QUANG DUONG\unit1\finalDice\app\build\intermediates\merged_res\debugAndroidTest
+com.example.finaldice.test.app-androidTest-5 D:\QUANG DUONG\unit1\finalDice\app\src\androidTest\res
+com.example.finaldice.test.app-androidTestDebug-6 D:\QUANG DUONG\unit1\finalDice\app\src\androidTestDebug\res

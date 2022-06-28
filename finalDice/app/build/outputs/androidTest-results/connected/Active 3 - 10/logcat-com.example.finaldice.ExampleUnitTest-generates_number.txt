@@ -1,0 +1,2 @@
+06-23 03:45:51.911 23823 23858 I TestRunner: started: generates_number(com.example.finaldice.ExampleUnitTest)
+06-23 03:45:51.937 23823 23858 I TestRunner: finished: generates_number(com.example.finaldice.ExampleUnitTest)

@@ -1,0 +1,4 @@
+#Thu Jun 23 03:43:59 ICT 2022
+base.0=D\:\\QUANG DUONG\\unit1\\finalDice\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
